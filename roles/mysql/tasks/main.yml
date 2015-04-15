@@ -1,4 +1,4 @@
-- name: Install MySQL without MySQL-shared
+- name: Install MySQL
   yum: name={{ mysql_url}}/{{ item }}
   with_items: mysql_rpms
 
